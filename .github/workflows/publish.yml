@@ -17,3 +17,6 @@ jobs:
 
       - name: Publish package
         run: npx jsr publish
+    
+      - name: Publish package
+        run: npx jsr publish -c strings/deno.json
