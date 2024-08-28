@@ -1,16 +1,5 @@
-# Rumpo Standard Library
-
-Here's a library of code I constantly find myself writing. This is my tool box.
-
-
-
-## Currently 
-There are only string utilities until I pull out new functions from existing projects.
-
-I've tried to separate into different modules, as well as a complete module for all
-
-## Strings Examples
-Typically string manipulations
+# Strings Examples
+This package contains string manipulation
 
 ### ensureStringEndsWith
 
