@@ -9,7 +9,7 @@
  */
 export function ensureStringStartsWith(
   str: string,
-  stringToAdd: string
+  stringToAdd: string,
 ): string {
   if (!str.startsWith(stringToAdd)) {
     str = stringToAdd + str;
