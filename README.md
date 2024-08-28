@@ -17,6 +17,7 @@ Typically string manipulations
 ### ensureStringEndsWith
 
 ```ts
+import { ensureStringEndsWith } from "@rumpo/std";
 const input = "Hello ";
 const resp = ensureStringEndsWith(input, "world");
 
@@ -26,6 +27,7 @@ console.log(resp); // Hello world
 ### ensureStringStartsWith
 
 ```ts
+import { ensureStringStartsWith } from "@rumpo/std";
 const input = " World";
 const resp = ensureStringStartsWith(input, "Hello");
 
@@ -35,6 +37,7 @@ console.log(resp); // Hello world
 ### getFileExtension
 
 ```ts
+import { getFileExtension } from "@rumpo/std";
 const input = "/path/myFile.mp4";
 const resp = getFileExtension(input);
 
@@ -44,6 +47,7 @@ console.log(resp); // mp4
 ### getFileDotExtension
 
 ```ts
+import { getFileDotExtension } from "@rumpo/std";
 const input = "/path/myFile.mp4";
 const resp = getFileDotExtension(input);
 

@@ -4,8 +4,11 @@
  * @param {string} str
  * @param {string} stringToAdd
  * @return {*}  {string}
- * @example ensureStringStartsWith("png", ".");
- * //output ".png"
+ * @example
+ * const input = " World";
+ * const resp = ensureStringStartsWith(input, "Hello");
+ *
+ * console.log(resp); // Hello world
  */
 export function ensureStringStartsWith(
   str: string,
@@ -23,8 +26,11 @@ export function ensureStringStartsWith(
  * @param {string} str
  * @param {string} stringToAdd
  * @return {*}  {string}
- * @example ensureStringEndsWith("Hello", "World");
- * //output "HelloWorld"
+ * @example
+ * const input = "Hello ";
+ * const resp = ensureStringEndsWith(input, "world");
+ *
+ * console.log(resp); // Hello world
  */
 export function ensureStringEndsWith(str: string, stringToAdd: string): string {
   if (!str.endsWith(stringToAdd)) {
@@ -40,9 +46,11 @@ export function ensureStringEndsWith(str: string, stringToAdd: string): string {
  * @export
  * @param {string} filePath
  * @return {*}  {string}
- * @example getFileDotExtension("myfile.mp4");
+ * @example
+ * const input = "/path/myFile.mp4";
+ * const resp = getFileDotExtension(input);
  *
- * //output ".mp4"
+ * console.log(resp); // .mp4
  */
 export function getFileDotExtension(filePath: string): string {
   const lastIndex = filePath.lastIndexOf(".");
@@ -59,9 +67,11 @@ export function getFileDotExtension(filePath: string): string {
  * @export
  * @param {string} filePath
  * @return {*}  {string}
- * @example getFileExtension("myfile.mp4");
+ * @example
+ * const input = "/path/myFile.mp4";
+ * const resp = getFileExtension(input);
  *
- * //output "mp4"
+ * console.log(resp); // mp4
  */
 export function getFileExtension(filePath: string): string {
   const dotExtension = getFileDotExtension(filePath);
