@@ -3,7 +3,7 @@ import {
   ensureStringStartsWith,
   getFileDotExtension,
   getFileExtension,
-} from './strings/mod.ts';
+} from './strings.ts';
 
 export {
   ensureStringEndsWith,
