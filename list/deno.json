@@ -1,5 +1,5 @@
 {
-  "name": "@rumpo/std",
+  "name": "@rumpo/list",
   "version": "0.0.5",
   "exports": "./mod.ts",
   "license": "MIT",

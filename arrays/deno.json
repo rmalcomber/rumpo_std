@@ -1,5 +1,5 @@
 {
-  "name": "@rumpo/strings",
+  "name": "@rumpo/arrays",
   "version": "0.0.5",
   "exports": "./mod.ts",
   "license": "MIT",

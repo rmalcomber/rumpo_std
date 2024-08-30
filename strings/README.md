@@ -1,6 +1,10 @@
-# Strings Examples
+# strings
 
-This package contains string manipulation
+This package contains utilities for strings
+
+## Functions
+
+Some of the functions include:
 
 ### ensureStringEndsWith
 
@@ -45,3 +49,8 @@ const resp = getFileDotExtension(input);
 
 console.log(resp); // .mp4
 ```
+
+## Contributing
+
+If you would like to contribute see our
+[guide](https://github.com/rmalcomber/rumpo_std/blob/main/README.md)

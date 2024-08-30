@@ -15,8 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Publish package
+      - name: Publish @rumpo/std
         run: npx jsr publish
     
-      - name: Publish package
+      - name: Publish @rumpo/string
         run: npx jsr publish -c strings/deno.json
+        
+      - name: Publish @rumpo/arrays
+        run: npx jsr publish -c arrays/deno.json
+
+      - name: Publish @rumpo/list
+        run: npx jsr publish -c list/deno.json
+
