@@ -1,4 +1,4 @@
-import { chunk } from "@rumpo/arrays/";
+import { chunk } from "@rumpo/arrays";
 
 /**
  * Represents a list of items.

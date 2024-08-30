@@ -5,6 +5,7 @@
   "license": "MIT",
   "imports": {
     "@std/assert": "jsr:@std/assert@^1.0.3",
-    "@std/fs": "jsr:@std/fs@^1.0.2"
+    "@std/fs": "jsr:@std/fs@^1.0.2",
+    "@rumpo/arrays": "jsr:@rumpo/arrays@^0.0.1"
   }
 }

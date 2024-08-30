@@ -2,12 +2,16 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "jsr:@rumpo/arrays@^0.0.1": "jsr:@rumpo/arrays@0.0.1",
       "jsr:@std/assert@^1.0.3": "jsr:@std/assert@1.0.3",
       "jsr:@std/fs@^1.0.2": "jsr:@std/fs@1.0.2",
       "jsr:@std/internal@^1.0.2": "jsr:@std/internal@1.0.2",
       "jsr:@std/path@^1.0.3": "jsr:@std/path@1.0.3"
     },
     "jsr": {
+      "@rumpo/arrays@0.0.1": {
+        "integrity": "f39647eceb7f7dd093491a4524c18f41a61f49bca4742679f9aba20946908d2e"
+      },
       "@std/assert@1.0.3": {
         "integrity": "b0d03ce1ced880df67132eea140623010d415848df66f6aa5df76507ca7c26d8",
         "dependencies": [
@@ -31,6 +35,7 @@
   "remote": {},
   "workspace": {
     "dependencies": [
+      "jsr:@rumpo/arrays@^0.0.1",
       "jsr:@std/assert@^1.0.3",
       "jsr:@std/fs@^1.0.2"
     ]
