@@ -1,13 +1,6 @@
-import {
-  assert,
-  assertEquals,
-} from '@std/assert';
+import { assert, assertEquals } from "@std/assert";
 
-import {
-  chunk,
-  popWhere,
-  removeWhere,
-} from '../main.ts';
+import { chunk, popWhere, removeWhere } from "../main.ts";
 
 Deno.test("Test Chunking", () => {
   // Test Numbers
@@ -76,7 +69,6 @@ Deno.test("Test Chunking", () => {
 });
 
 Deno.test("Test popWhere", () => {
-  
   const testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   const removed = popWhere(testArray, (value) => value === 3);
@@ -84,7 +76,7 @@ Deno.test("Test popWhere", () => {
 
   assertEquals(removed[0], 3);
   assertEquals(testArray.length, 9);
-  
+
   const objectTestArray = [
     { value: 1 },
     { value: 2 },
