@@ -1,0 +1,44 @@
+{
+  "scriptId": "313",
+  "url": "file:///home/roy/projects/rumpo_std/strings/main.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1846, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ensureStringStartsWith",
+      "ranges": [
+        { "startOffset": 324, "endOffset": 462, "count": 4 },
+        { "startOffset": 412, "endOffset": 446, "count": 2 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ensureStringEndsWith",
+      "ranges": [
+        { "startOffset": 779, "endOffset": 913, "count": 4 },
+        { "startOffset": 863, "endOffset": 897, "count": 2 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getFileDotExtension",
+      "ranges": [
+        { "startOffset": 1187, "endOffset": 1396, "count": 4 },
+        { "startOffset": 1298, "endOffset": 1332, "count": 2 },
+        { "startOffset": 1334, "endOffset": 1395, "count": 2 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getFileExtension",
+      "ranges": [
+        { "startOffset": 1664, "endOffset": 1845, "count": 2 },
+        { "startOffset": 1787, "endOffset": 1844, "count": 1 }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
