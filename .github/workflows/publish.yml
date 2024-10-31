@@ -26,3 +26,6 @@ jobs:
 
       - name: Publish @rumpo/list
         run: npx jsr publish -c list/deno.json
+
+      - name: Publish @rumpo/maps
+        run: npx jsr publish -c maps/deno.json
