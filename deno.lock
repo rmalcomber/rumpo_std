@@ -1,42 +1,44 @@
 {
-  "version": "3",
-  "packages": {
-    "specifiers": {
-      "jsr:@rumpo/arrays@^0.0.1": "jsr:@rumpo/arrays@0.0.1",
-      "jsr:@std/assert@^1.0.3": "jsr:@std/assert@1.0.3",
-      "jsr:@std/fs@^1.0.2": "jsr:@std/fs@1.0.2",
-      "jsr:@std/internal@^1.0.2": "jsr:@std/internal@1.0.2",
-      "jsr:@std/path@^1.0.3": "jsr:@std/path@1.0.3"
+  "version": "4",
+  "specifiers": {
+    "jsr:@rumpo/arrays@^0.0.1": "0.0.1",
+    "jsr:@std/assert@^1.0.3": "1.0.3",
+    "jsr:@std/async@^1.0.7": "1.0.7",
+    "jsr:@std/fs@^1.0.2": "1.0.2",
+    "jsr:@std/internal@^1.0.2": "1.0.2",
+    "jsr:@std/path@^1.0.3": "1.0.3"
+  },
+  "jsr": {
+    "@rumpo/arrays@0.0.1": {
+      "integrity": "f39647eceb7f7dd093491a4524c18f41a61f49bca4742679f9aba20946908d2e"
     },
-    "jsr": {
-      "@rumpo/arrays@0.0.1": {
-        "integrity": "f39647eceb7f7dd093491a4524c18f41a61f49bca4742679f9aba20946908d2e"
-      },
-      "@std/assert@1.0.3": {
-        "integrity": "b0d03ce1ced880df67132eea140623010d415848df66f6aa5df76507ca7c26d8",
-        "dependencies": [
-          "jsr:@std/internal@^1.0.2"
-        ]
-      },
-      "@std/fs@1.0.2": {
-        "integrity": "af57555c7a224a6f147d5cced5404692974f7a628ced8eda67e0d22d92d474ec",
-        "dependencies": [
-          "jsr:@std/path@^1.0.3"
-        ]
-      },
-      "@std/internal@1.0.2": {
-        "integrity": "f4cabe2021352e8bfc24e6569700df87bf070914fc38d4b23eddd20108ac4495"
-      },
-      "@std/path@1.0.3": {
-        "integrity": "cd89d014ce7eb3742f2147b990f6753ee51d95276bfc211bc50c860c1bc7df6f"
-      }
+    "@std/assert@1.0.3": {
+      "integrity": "b0d03ce1ced880df67132eea140623010d415848df66f6aa5df76507ca7c26d8",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/async@1.0.7": {
+      "integrity": "f4fadc0124432e37cba11e8b3880164661a664de00a65118d976848f32f96290"
+    },
+    "@std/fs@1.0.2": {
+      "integrity": "af57555c7a224a6f147d5cced5404692974f7a628ced8eda67e0d22d92d474ec",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
+    "@std/internal@1.0.2": {
+      "integrity": "f4cabe2021352e8bfc24e6569700df87bf070914fc38d4b23eddd20108ac4495"
+    },
+    "@std/path@1.0.3": {
+      "integrity": "cd89d014ce7eb3742f2147b990f6753ee51d95276bfc211bc50c860c1bc7df6f"
     }
   },
-  "remote": {},
   "workspace": {
     "dependencies": [
       "jsr:@rumpo/arrays@^0.0.1",
       "jsr:@std/assert@^1.0.3",
+      "jsr:@std/async@^1.0.7",
       "jsr:@std/fs@^1.0.2"
     ]
   }

@@ -7,6 +7,8 @@ import {
   getFileExtension,
 } from "./strings/mod.ts";
 
+import { TTLMap } from "./maps/mod.ts";
+
 export {
   chunk,
   ensureStringEndsWith,
@@ -16,4 +18,5 @@ export {
   List,
   popWhere,
   removeWhere,
+  TTLMap,
 };
