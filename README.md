@@ -19,7 +19,7 @@ features. Some things I'm trying to do with this project
 - Must work with:
   - Cloudflare Workers
   - Node.js
-  - Deno*
+  - Deno\*
   - Bun
   - Browsers
 - Keep all package versions in sync
@@ -107,7 +107,7 @@ class.
 More Information
 [Here](https://github.com/rmalcomber/rumpo_std/blob/main/list/README.md)
 
-The Strings package can be imported via
+The List package can be imported via
 
 ```ts
 import {} from "@rumpo/list";
@@ -121,6 +121,29 @@ import { List } from "@rumpo/list";
 const myList = new List<string>();
 
 myList.Add("Hello World");
+```
+
+## Maps
+
+This package contains map utilities.
+
+More Information
+[Here](https://github.com/rmalcomber/rumpo_std/blob/main/maps/README.md)
+
+The Maps package can be imported via
+
+```ts
+import {} from "@rumpo/maps";
+```
+
+### Example
+
+```ts
+import { TTLMap } from "@rumpo/maps";
+
+using map = new TTLMap<string, string>();
+
+map.set("key1", "value1", 1000);
 ```
 
 ## Contributing
