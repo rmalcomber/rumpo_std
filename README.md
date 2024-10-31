@@ -42,6 +42,7 @@ They're all published on [jrs](https://jsr.io/@rumpo)
 - [@rumpo/strings](https://jsr.io/@rumpo/strings) - Partial Package
 - [@rumpo/arrays](https://jsr.io/@rumpo/arrays) - Partial Package
 - [@rumpo/list](https://jsr.io/@rumpo/list) - Partial Package
+- [@rumpo/maps](https://jsr.io/@rumpo/maps) - Partial Package
 
 ## Example
 
